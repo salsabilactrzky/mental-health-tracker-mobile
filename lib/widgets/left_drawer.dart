@@ -52,7 +52,7 @@ class LeftDrawer extends StatelessWidget {
               },
             ),
             ListTile(
-              leading: const Icon(Icons.mood),
+              leading: const Icon(Icons.add_reaction_rounded),
               title: const Text('Tambah Mood'),
               // Bagian redirection ke MoodEntryFormPage
               onTap: () {
@@ -65,7 +65,7 @@ class LeftDrawer extends StatelessWidget {
               },
             ),
             ListTile(
-              leading: const Icon(Icons.add_reaction_rounded),
+              leading: const Icon(Icons.mood),
               title: const Text('Daftar Mood'),
               onTap: () {
                   // Route menu ke halaman mood

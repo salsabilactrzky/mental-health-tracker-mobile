@@ -34,6 +34,8 @@ class _MoodEntryPageState extends State<MoodEntryPage> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Mood Entry List'),
+        backgroundColor: Theme.of(context).colorScheme.primary,
+        foregroundColor: Colors.white,
       ),
       drawer: const LeftDrawer(),
       body: FutureBuilder(
